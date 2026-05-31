@@ -1,0 +1,42 @@
+let score=  "100abc" //string datatype
+console.log(score) //100abc
+console.log(typeof score) //string
+
+//convert string to number
+let convertedScore=Number(score)
+console.log(convertedScore) //NaN
+console.log(typeof convertedScore) //number
+let marks=null
+console.log(marks) //null
+console.log(typeof marks) //object
+
+//convert null to number
+let convertedMarks=Number(marks)
+console.log(convertedMarks) //0
+console.log(typeof convertedMarks) //number
+
+let isPassed=true
+console.log(isPassed) //true
+console.log(typeof isPassed) //boolean
+
+//convert boolean to number
+let convertedIsPassed=Number(isPassed)
+console.log(convertedIsPassed) //1
+console.log(typeof convertedIsPassed) //number
+
+let isFailed=false
+console.log(isFailed) //false
+console.log(typeof isFailed) //boolean
+
+//convert boolean to number
+let convertedIsFailed=Number(isFailed)
+console.log(convertedIsFailed) //0
+console.log(typeof convertedIsFailed) //number
+
+let name=undefined
+console.log(name) //undefined
+console.log(typeof name) //undefined        
+//convert undefined to number
+let convertedName=Number(name)
+console.log(convertedName) //NaN
+console.log(typeof convertedName) //number
