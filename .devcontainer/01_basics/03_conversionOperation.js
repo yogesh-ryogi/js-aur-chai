@@ -40,3 +40,23 @@ console.log(typeof name) //undefined
 let convertedName=Number(name)
 console.log(convertedName) //NaN
 console.log(typeof convertedName) //number
+
+num=3;
+negativeNum=-num
+console.log(negativeNum) //-3  
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(2%2) //modulus operator gives the remainder of the division 
+console.log(2**2) //exponentiation operator gives the result of raising the first operand to the power of the second operand
+
+str1="yogesh"
+str2="rajanna"
+str3=str1+str2
+console.log(str3) //yogeshrajanna
+
+str4=str1+" "+str2
+console.log(str4) //yogesh rajanna
+
