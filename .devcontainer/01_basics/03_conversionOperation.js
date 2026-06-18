@@ -60,3 +60,20 @@ console.log(str3) //yogeshrajanna
 str4=str1+" "+str2
 console.log(str4) //yogesh rajanna
 
+console.log("1"+2)
+console.log(1+"2") //yogesh2
+console.log("1"-2) //yogesh2
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+console.log(true)
+console.log(+true)//1
+console.log(+"")
+
+let gameCounnter=100
+gameCounnter++
+console.log(gameCounnter) //101 
+gameCounnter--
+console.log(gameCounnter) //100
+
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
