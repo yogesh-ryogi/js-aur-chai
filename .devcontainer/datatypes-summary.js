@@ -31,3 +31,23 @@ let myObj={
 function sayHello(){
     console.log("Hello");
 }
+
+//stack(for primitive data types) and heap(for refrence data types) memory allocation
+let myName="raj"
+let anotherName=myName
+console.log(myName);
+console.log(anotherName);
+
+myName="john"
+console.log(myName);
+console.log(anotherName);
+
+let myHero=["spiderman","ironman"]
+let anotherHero=myHero
+console.log(myHero);
+console.log(anotherHero);
+
+myHero.push("hulk")
+console.log(myHero);
+console.log(anotherHero);
+
